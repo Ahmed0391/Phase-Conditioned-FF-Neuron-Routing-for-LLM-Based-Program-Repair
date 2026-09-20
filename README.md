@@ -97,6 +97,7 @@ The initial phase decomposition is:
 
 A trajectory can therefore be represented as:
 
+```text
 Repair Trajectory
        │
        ├── Analyze ──→ E_{A}
