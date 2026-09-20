@@ -35,7 +35,7 @@ The central question is:
 For a repair trajectory divided into phases
 
 
-P = {\text{Analyze},\text{Detect},\text{Edit},\text{Test}\},
+P = {Analyze,Detect,Edit,Test},
 
 
 we investigate whether each phase has a characteristic set of active FF neurons:
