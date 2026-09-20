@@ -41,13 +41,13 @@ P = {Analyze,Detect,Edit,Test},
 we investigate whether each phase has a characteristic set of active FF neurons:
 
 
-E_{A},\ E_{D},\ E_{E},\ E_{T}.
+E_{A}, E_{D}, E_{E}, E_{T}.
 
 
-More generally, for a model input \(X_p\) belonging to phase \(p\),
+More generally, for a model input X_{p} belonging to phase p,
 
 
-X_p \rightarrow E_p^{FF}.
+X_{p} \rightarrow E_{p}^{FF}.
 
 
 We then study:
@@ -69,16 +69,16 @@ This project asks whether the **agent's current role** can provide another usefu
 Instead of considering only:
 
 
-X \rightarrow E_X,
+X \rightarrow E_{X},
 
 
 we consider:
 
 
-(X,\ p) \rightarrow E_p,
+(X, p) \rightarrow E_{p},
 
 
-where \(p\) denotes the current repair phase.
+where p denotes the current repair phase.
 
 The goal is not to assume that phase-specific circuits exist, but to test this hypothesis empirically.
 
@@ -100,10 +100,10 @@ A trajectory can therefore be represented as:
 ```text
 Repair Trajectory
        │
-       ├── Analyze ──→ E_A
+       ├── Analyze ──→ E_{A}
        │
-       ├── Detect  ──→ E_D
+       ├── Detect  ──→ E_{D}
        │
-       ├── Edit    ──→ E_E
+       ├── Edit    ──→ E_{E}
        │
-       └── Test    ──→ E_T
+       └── Test    ──→ E_{T}
