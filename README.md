@@ -100,10 +100,10 @@ A trajectory can therefore be represented as:
 ```text
 Repair Trajectory
        │
-       ├── Analyze ──→ $$E_{A}$$
+       ├── Analyze ──→ E_{A}
        │
-       ├── Detect  ──→ $E_{D}$
+       ├── Detect  ──→ E_{D}
        │
-       ├── Edit    ──→ $E_{E}$
+       ├── Edit    ──→ E_{E}
        │
-       └── Test    ──→ $E_{T}$
+       └── Test    ──→ E_{T}
